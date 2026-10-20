@@ -1,6 +1,35 @@
 # Changelog
 
 
+## v0.3.1
+
+[compare changes](https://github.com/unjs/ocache/compare/v0.3.0...v0.3.1)
+
+### 🩹 Fixes
+
+- **bench:** Keep the fan-out no-cache row out of overload ([b7b55da](https://github.com/unjs/ocache/commit/b7b55da))
+- Chain timers past the 32-bit setTimeout limit ([56460c4](https://github.com/unjs/ocache/commit/56460c4))
+- Preserve `req.context` when narrowing request ([#105](https://github.com/unjs/ocache/pull/105))
+- **http:** Never answer 304 for a non-cacheable status ([#102](https://github.com/unjs/ocache/pull/102))
+- **cache:** Hold the dedup slot until the write lands ([#100](https://github.com/unjs/ocache/pull/100))
+
+### 📖 Documentation
+
+- Update v0.3 migration guide ([48b737d](https://github.com/unjs/ocache/commit/48b737d))
+
+### 🏡 Chore
+
+- Update undocs ([0e188db](https://github.com/unjs/ocache/commit/0e188db))
+- Apply automated updates ([68cb669](https://github.com/unjs/ocache/commit/68cb669))
+- Update deps and lockfile ([b3865d5](https://github.com/unjs/ocache/commit/b3865d5))
+
+### ❤️ Contributors
+
+- Pooya Parsa <pooya@pi0.io>
+- Kaan Çelebi
+- Mochammad Fadhlan Al-Ghiffari ([@MFA-G](https://github.com/MFA-G))
+- Daniel Roe <daniel@roe.dev>
+
 ## v0.3.0
 
 [compare changes](https://github.com/unjs/ocache/compare/v0.2.0...v0.3.0)
